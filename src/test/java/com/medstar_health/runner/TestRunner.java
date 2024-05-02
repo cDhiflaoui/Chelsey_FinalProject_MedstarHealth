@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         glue = {"com.medstar_health.stepdefinitions", "com.medstar_health.hooks"},
         plugin = {"pretty", "html:target/Medstar_Health-report-final.html",
                 "rerun:target/failed_scenarios.txt"},
-        dryRun = true, // make sre to chnage this to false if you want to really execute  your tests
+        dryRun = true, // make sre to chnage this to false if you want to really execute  your tests for your project
         tags= "@smoke"
 
 )
